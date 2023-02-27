@@ -2,8 +2,8 @@ package com.example.demo.repository;
 
 import org.springframework.data.mongodb.repository.MongoRepository;
 
-import com.example.demo.domain.User;
+import com.example.demo.domain.Post;
 
-public interface UserRepository extends MongoRepository<User, String>{
+public interface PostRepository extends MongoRepository<Post, String>{
 	
 }
